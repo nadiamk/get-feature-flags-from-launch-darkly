@@ -1,0 +1,6 @@
+{
+  "flagValues": {
+    "service-1-enabled": false,
+    "postgres-enabled": false
+  }
+}
