@@ -1,2 +1,3 @@
 *.swp
-mock_feature_flags.json
+.env
+feature_flags.csv
