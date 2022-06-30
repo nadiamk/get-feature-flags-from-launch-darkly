@@ -1,4 +1,4 @@
-Generates a CSV of abbreviated feature flag info pulled from Launch Darkly, setting all to false.
+Generates a CSV of abbreviated feature flag info pulled from Launch Darkly.
 
 This was useful in another project, but the functionality of note is being able to `curl` a list of feature flags and their properties.  See Figure 1 below for the `curl`'s results before it's parsed.
 
@@ -6,8 +6,8 @@ This was useful in another project, but the functionality of note is being able 
 1. `$ ./get_feature_flags_from_launch_darkly.sh`
 2. This will create a file `feature_flags.csv` in the same directory containing abbreviated FF info (the name of the flag and whether it's on or off).  See the file `feature_flags__example.csv` for an example, also reproduced here:
     ```csv
-    service-1-enabled, false
-    postgres-enabled, true
+    service-1-enabled,false
+    postgres-enabled,true
     ```
 
 
